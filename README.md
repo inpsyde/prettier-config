@@ -12,9 +12,12 @@ To install this package, create a `.npmrc` file in the project root (the same di
 
 ```text
 @inpsyde:registry=https://npm.pkg.github.com/
+//npm.pkg.github.com/:_authToken=YOUR_PERSONAL_ACCESS_TOKEN
 ```
 
-This is to make that packages from the owner `@inpsyde` are downloaded from GitHub's registry. If this is entirely new to you, check the [Installing a package](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package) section in the official docs.
+Don't forget to change the placeholder to your personal access token!
+
+If this is entirely new to you, check the [Installing a package](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package) section in the official docs.
 
 ## Usage
 
