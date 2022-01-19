@@ -1,9 +1,6 @@
 # Inpsyde Prettier Config
 
-This package provides the shared [Prettier](https://prettier.io/) configuration we use across teams and projects.
-
-After accepting an RFC, Prettier is the recommended tool for formatting JavaScript, TypeScript by Inpsyde.
-Read more about this on the [internal project page](https://inpsyde.atlassian.net/wiki/spaces/AT/pages/3523412139/Prettier+config).
+This package provides the shared [Prettier](https://prettier.io/) configuration we use across teams and projects at Inpsyde.
 
 ## Installation
 
@@ -11,16 +8,13 @@ Read more about this on the [internal project page](https://inpsyde.atlassian.ne
 npm install --save-dev --save-exact prettier @inpsyde/prettier-config
 ```
 
-Since this is a private package for the authentication, you have to create a `.npmrc` file with the following details:
+To install this package, create a `.npmrc` file in the project root (the same directory as your package.json file) with the following details:
 
 ```text
 @inpsyde:registry=https://npm.pkg.github.com/
-//npm.pkg.github.com/:_authToken=YOUR_PERSONAL_ACCESS_TOKEN
 ```
 
-Don't forget to change the placeholder to your personal access token!
-
-If this is entirely new to you, check the [Installing a package](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package) section in the official docs or our internal [GitHub Package Registry (for npm)](https://inpsyde.atlassian.net/wiki/spaces/AT/pages/3112894465/GitHub+Package+Registry+for+npm) page for more details.
+This is to make that packages from the owner `@inpsyde` are downloaded from GitHub's registry. If this is entirely new to you, check the [Installing a package](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package) section in the official docs.
 
 ## Usage
 
