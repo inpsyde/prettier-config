@@ -7,18 +7,6 @@ This package provides the shared [Prettier](https://prettier.io/) configuration 
 ```text
 npm install --save-dev --save-exact prettier @inpsyde/prettier-config
 ```
-
-To install this package, create a `.npmrc` file in the project root (the same directory as your package.json file) with the following details:
-
-```text
-@inpsyde:registry=https://npm.pkg.github.com/
-//npm.pkg.github.com/:_authToken=YOUR_PERSONAL_ACCESS_TOKEN
-```
-
-Don't forget to change the placeholder to your personal access token!
-
-If this is entirely new to you, check the [Installing a package](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package) section in the official docs.
-
 ## Usage
 
 To use the shared configuration, add the following line to `package.json`:
