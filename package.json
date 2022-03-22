@@ -1,6 +1,6 @@
 {
     "name": "@inpsyde/prettier-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Shared Prettier configuration for Inpsyde projects",
     "main": "index.json",
     "repository": "git@github.com:inpsyde/prettier-config.git",
